@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <CheckedTextView
+        android:id="@+id/logText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select the contacts that you wish to add." />
+    <ListView android:layout_width="match_parent"
+              android:id="@+id/contactList"
+              android:layout_height="0dip"
+              android:layout_weight="1" />
+    <Button
+        android:id="@+id/finishButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:text="Add Contacts" />
+</LinearLayout>
